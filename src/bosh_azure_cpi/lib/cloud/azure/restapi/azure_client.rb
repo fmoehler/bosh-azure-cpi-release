@@ -455,7 +455,7 @@ module Bosh::AzureCloud
       }
 
       response = http_put(url, vm, params)
-      result = FastJsonparser.parse(response.body, symbolize_keys: false) unless response.body.nil? || response.body == ''
+      result = JSON.parse(response.body, symbolize_keys: false) unless response.body.nil? || response.body == ''
 
       _parse_virtual_machine(result, false)
     end

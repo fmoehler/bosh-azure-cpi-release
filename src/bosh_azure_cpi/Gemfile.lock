@@ -58,15 +58,7 @@ GEM
     faraday-retry (1.0.3)
     faraday_middleware (1.2.1)
       faraday (~> 1.0)
-<<<<<<< HEAD
-    fast_jsonparser (0.6.0)
     hashdiff (1.1.1)
-||||||| 9699232 (Improve JSON parsing speed by using FastJsonParser)
-    fast_jsonparser (0.6.0)
-    hashdiff (1.0.1)
-=======
-    hashdiff (1.0.1)
->>>>>>> parent of 9699232 (Improve JSON parsing speed by using FastJsonParser)
     httpclient (2.8.3)
     json (2.8.1)
     jwt (2.9.3)
@@ -160,27 +152,11 @@ DEPENDENCIES
   azure-storage-blob (~> 2.0, >= 2.0.3)
   azure-storage-common (~> 2.0, >= 2.0.4)
   azure-storage-table (~> 2.0, >= 2.0.4)
-<<<<<<< HEAD
   bosh_common
   bosh_cpi
   concurrent-ruby
   deep_merge
-  fast_jsonparser
   jwt
-||||||| 9699232 (Improve JSON parsing speed by using FastJsonParser)
-  bosh_common (= 1.3262.24.0)
-  bosh_cpi (= 2.5.0)
-  concurrent-ruby (~> 1.1, >= 1.1.8)
-  deep_merge (~> 1.2, >= 1.2.1)
-  fast_jsonparser (~> 0.6.0)
-  jwt (~> 2.2, >= 2.2.2)
-=======
-  bosh_common (= 1.3262.24.0)
-  bosh_cpi (= 2.5.0)
-  concurrent-ruby (~> 1.1, >= 1.1.8)
-  deep_merge (~> 1.2, >= 1.2.1)
-  jwt (~> 2.2, >= 2.2.2)
->>>>>>> parent of 9699232 (Improve JSON parsing speed by using FastJsonParser)
   net-smtp
   ostruct
   rake
